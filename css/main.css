@@ -5,7 +5,7 @@ html {
 
   background-color: #dbd6cf;
   line-height: 1.5;
-  font-family: Bevan, san-serif;
+  font-family: "Bevan", "san-serif";
 }
 
 *, *::before, *::after {
@@ -17,27 +17,29 @@ html {
 h1 {
   color: #fff;
   text-align: center;
-  font-family: Bevan;
-  font-size: 1rem;
-}
-
-body {
-  font-size: .8rem;
+  font-family: "Bevan";
 }
 
 /* -------Box styling------- */
 
-h1 nav {
+body {
   display: block;
   background-color: #79756f;
   border-color: #595652;
+  border-width: medium;
+  border-style: solid;
+  font-size: .8rem;
+  font-family: sans-serif;
+  text-align: center;
 }
 
 .nav li {
   display: inline-block;
   padding: .6em .5em .75em;
-  color: #713837;
+  background-color: #713837;
   text-align: center;
+  border-radius: .3em;
+  color: #fff;
 }
 
 .nav a:hover {
